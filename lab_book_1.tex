@@ -59,6 +59,7 @@
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 \usepackage[shortlabels]{enumitem}
 \usepackage{pgfplots, pgfplotstable}
+\usepackage{siunitx}
 
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Command to make the lines in the title page
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
@@ -167,99 +168,158 @@
 
 \labday{Wednesday, 31 January 2024}
 \vspace{-5mm}
-Tiffany Pham, Devaughn Triplett
+Tiffany Pham
 
 \experiment{Lab 02 (Lab) - Is Your Phone a Good Protractor?}
-\vspace{-2mm}
-\textbf{Objectives}
-
-
-
-\hfill \break
+\vspace{-5mm}
 \textbf{Purpose}
-To figure out if your phone is a good protractor or not.
+
+This lab serves three purposes. 1) Become familiar with lab equipment. 2) Gain experience
+collecting and analyzing real data and making reasoned, supported conclusions on what that data
+means. 3) Practice recording what you’re doing and why in your lab notebook.
 
 \hfill \break
 \textbf{Predictions}
 
-\textbf{Steps of Plan}
+I predict that the protractor and phone will have similar values to each other with only an offset of +-10 degrees.
 
-\textbf{Equipment needed}
+\hfill \break
+\textbf{Procedure}
 
-\textbf{Informative sketches, diagrams, images}
+Walk around each of the tables (no particular order) and place phone perpendicular to the track. Record the data for the phone, then measure with the protractor and record data for protractor. Repeat for all tracks till you have data set filled out.
 
-\textbf{Observations throughout the experiment}
-
-\textbf{Data Check}
-
-\textbf{}
-
-
+\hfill \break 
 What could go wrong:
 
 Phone cameras messing up measuring, can place phone camera off the track
 
-Place perpendicular so phone cameras don't mess up 
+Place perpendicular so phone cameras don't mess up (depending on the phone and case).
 
-Procedure:
+\hfill \break
+\textbf{Equipment needed}
 
-Measure with Phyphox
+Phyphox downloaded on phone
 
-Measure with protractor
+Protractor
 
-Parallel vs perpendicular
-
-absolute value vs negative
-
-no case
-
-Purpose:
-
-To figure out if your phone is a good protractor or not
+Track
 
 
 %----------------------------------------------------------------------------------------
 
-
 \experiment{Phone Measurements}
 
-\begin{table}[H]
-\resizebox{\textwidth}{!}{\begin{tabular}{l l l l l l l l l l l l}
-\toprule
-\textbf{Track 1} & \textbf{Track 2} & \textbf{Track 3} & \textbf{Track 4} & \textbf{Track 5} & \textbf{Track 6} & \textbf{Track 7} & \textbf{Track 8} & \textbf{Track 9} & \textbf{Track 10} & \textbf{Track 11} & \textbf{Track 12}    \\
-\toprule
-0.2 & 0.8\\
-0.17 & 0.7\\
-0.24 & 0.75\\
-0.68 & 0.3\\
-\bottomrule
-\end{tabular}}
-\caption{Phone measurements on tracks.}
-\label{tab:phone}
-\end{table}
+\begin{figure}[H] % Example of including images
+\begin{center}
+\includegraphics[width=1.25\linewidth]{images/PhyphoxProtractorSpreadsheet.png}
+\end{center}
+\caption{Data of Phyphox and Protractor Measurements}
+\label{fig:Data of Phyphox and Protractor Measurements}
+\end{figure}
 
-Table \ref{tab:phone} shows that groups 1-3 reacted similarly to the two treatments but group 4 showed a reversed reaction.
+Figure \ref{fig:Data of Phyphox and Protractor Measurements} shows all data collected from all groups for both the Phyphox app and the Protractor.
 
-\begin{table}[H]
-\resizebox{\textwidth}{!}{\begin{tabular}{l l l l l l l l l l l l}
-\toprule
-\textbf{Track 1} & \textbf{Track 2} & \textbf{Track 3} & \textbf{Track 4} & \textbf{Track 5} & \textbf{Track 6} & \textbf{Track 7} & \textbf{Track 8} & \textbf{Track 9} & \textbf{Track 10} & \textbf{Track 11} & \textbf{Track 12}    \\
-\toprule
-0.2 & 0.8\\
-0.17 & 0.7\\
-0.24 & 0.75\\
-0.68 & 0.3\\
-\bottomrule
-\end{tabular}}
-\caption{Phone measurements on tracks.}
-\label{tab:protactor}
-\end{table}
+\hfill \break
+\vspace{3in}
+\hfill \break
+\experiment{Calculating}
+\hfill \break
+\begin{figure}[H] % Example of including images
+\begin{center}
+\includegraphics[width=0.8\linewidth]{images/PhyProTrack1-2.png}
+\end{center}
+\caption{Calculations of IRQ, high values, low values and MAD for tracks 1-2}
+\label{fig:Track1-2PhyphoxProtractor}
+\end{figure}
 
-Table \ref{tab:protactor} shows that groups 1-3 reacted similarly to the two treatments but group 4 showed a reversed reaction.
+\begin{figure}[H] % Example of including images
+\begin{center}
+\includegraphics[width=0.9\linewidth]{images/PhyProTrack3-4.png}
+\end{center}
+\caption{Calculations of IRQ, high values, low values and MAD for tracks 3-4}
+\label{fig:Track3-4PhyphoxProtractor}
+\end{figure}
+
+\begin{figure}[H] % Example of including images
+\begin{center}
+\includegraphics[width=0.9\linewidth]{images/PhyProTrack5-6.png}
+\end{center}
+\caption{Calculations of IRQ, high values, low values and MAD for tracks 5-6}
+\label{fig:Track5-6PhyphoxProtractor}
+\end{figure}
+
+\begin{figure}[H] % Example of including images
+\begin{center}
+\includegraphics[width=0.9\linewidth]{images/PhyProTrack7-8.png}
+\end{center}
+\caption{Calculations of IRQ, high values, low values and MAD for tracks 7-8}
+\label{fig:Track7-8PhyphoxProtractor}
+\end{figure}
+
+\begin{figure}[H] % Example of including images
+\begin{center}
+\includegraphics[width=0.9\linewidth]{images/PhyProTrack9-10.png}
+\end{center}
+\caption{Calculations of IRQ, high values, low values and MAD for tracks 9-10}
+\label{fig:Track9-10PhyphoxProtractor}
+\end{figure}
+
+\begin{figure}[H] % Example of including images
+\begin{center}
+\includegraphics[width=0.9\linewidth]{images/PhyProTrack11-12.png}
+\end{center}
+\caption{Calculations of IRQ, high values, low values and MAD for tracks 11-12}
+\label{fig:Track11-12PhyphoxProtractor}
+\end{figure}
+
+\begin{figure}[H] % Example of including images
+\begin{center}
+\includegraphics[width=0.9\linewidth]{images/PhyProMADLH.png}
+\end{center}
+\caption{MAD data for all tracks from lowest to highest}
+\label{fig:MADLHPhyphoxProtractor}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+
+\experiment{Lab Notebook Prompts}
+\begin{enumerate}
+    \item You’ll use inclined tracks in future experiments and will need measure the angle. You’re doing this experiment to decide what will be the most appropriate way(s) to do so.
+    \begin{enumerate}[(a)]
+        \item Based on the mean absolute deviation, what angles are most precise? Least precise? Is there a trend? \textit{This can inform if there are different conditions for track angles and phyphox vs. protractor measurements.}
+        \item How do \underline{your} measurements compare to the mean and MAD? \textit{For example, do your phyphox inclination measures tend to be larger or smaller than the mean? Do your protractor readings tend to be larger or smaller? These could also inform how you choose to measure angles in the lab.}
+        \item Compare the protractor and phyphox values for each angle. Considering the mean absolute deviation, do the answers agree? Are there trends in agreement or disagreement based on angle?
+        \item List the pros/cons of the phyphox app and proctractor.
+        \item Feel free to ask yourself additional questions or observations about the data and results.
+        \item Based on the data and the data and \underline{your} measurements, under what conditions, if any, would you use the
+        \begin{enumerate}[i]
+            \item phyphox app?
+            \item protractor?
+        \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+
+\experiment{Lab Notebook Answers}
+\begin{enumerate}
+    \item Notebook Answers:
+    \begin{enumerate}[(a)]
+        \item Based on the Mean Absolute Deviation (MAD), I would conclude that \textbf{Track 11} and \textbf{Track 2} would be most precise and \textbf{Track 7} and \textbf{Track 12} would be the least precise. There doesn't seem to be a trend, but if you do count the individual tracks separately for Phyphox and Protractor, then it seems that the Protractor runs are the most precise compared to the Phyphox runs.
+        \item There were some readings that were way out of range compared to the mean, some of them tended to be larger than the mean.
+        \item After comparing the Phyphox and Protractor values, I found that the MAD was always bigger then the protractor values in general. There seems to be a trend on the angles as when the Phyphox app says the angle is smaller, so does the Protractor, when the Phyphox app says the angle is bigger, so does the Protractor, and vice versa.
+        \item The pro of the protractor is that you will know that the readings you get will be accurate or within the range of $\pm2$. But because the protractor isn't digital compared to the Phyphox, you will have to guess what value the leg is on as it will be difficult to determine precisely what value the leg is on. Unlike the protractor the pro of the Phyphox app is that the readings are digital; it will tell the exact value and you won't have to guess what value it will be on as it is show on the screen. So it is easy to read the data. But a con is that the values will most likely have a high MAD and that the readings would vary a lot.
+        \item N/A
+        \item Phyphox App vs Protractor:
+        \begin{enumerate}[i]
+            \item I would use the Phyphox App if I just needed a quick measurement of any angle.
+            \item I would use the protractor if I enough time to get a more accurate reading.
+        \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
 
 
 
-\experiment{Plotting}
 
 
 
